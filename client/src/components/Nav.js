@@ -24,6 +24,13 @@ function Nav() {
       >
         Logout
       </a>
+      <a
+        href='/#'
+        className="navbar-item"
+        style={{cursor:'pointer', textDecoration: 'none', color: 'black'}}
+      >
+        Hello
+      </a>
     </nav>
   );
 }
